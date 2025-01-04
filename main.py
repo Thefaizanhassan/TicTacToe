@@ -90,7 +90,7 @@ def check_winner(grid):
         if grid[0][col] == grid[1][col] == grid[2][col] and grid[0][col] is not None:
             return grid[0][col]
     
-    # Check diagonals
+    # Check diago\'nals
     if grid[0][0] == grid[1][1] == grid[2][2] and grid[0][0] is not None:
         return grid[0][0]
     if grid[0][2] == grid[1][1] == grid[2][0] and grid[0][2] is not None:
